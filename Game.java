@@ -431,7 +431,7 @@ public class Game {
 					&& (balle.getSens() == true)) {
 				rectangle.decreaseLife(balle.getHit());
 				if (balle.getClass().equals(Missile.class)
-						&& rectangle.getClass().equals(PLateform2.class)) {
+						&& rectangle.getClass().equals(Plateform.class)) {
 					if (rectangle.equals(pLeft)) { // attention pour debbugage,
 													// pas sur que les nom pLeft
 													// et pRight soient
